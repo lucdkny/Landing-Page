@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* primary */
+    --primary5:   rgba(255, 111, 97, 0.05);
+    --primary10:  rgba(255, 111, 97, 0.1);
+    --primary25:  rgba(255, 111, 97, 0.25);
+    --primary50:  rgba(255, 111, 97, 0.5);
+    --primary75:  rgba(255, 111, 97, 0.75);
+    --primary: rgba(255, 111, 97, 1);
+    /* blackcolor */
+    --black5:   rgba(30, 40, 50, 0.05);
+    --black10:  rgba(30, 40, 50, 0.1);
+    --black25:  rgba(30, 40, 50, 0.25);
+    --black50:  rgba(30, 40, 50, 0.5);
+    --black75:  rgba(30, 40, 50, 0.75);
+    --black: rgba(30, 40, 50, 1);
+    /* whitecolor */
+    --white5:   rgba(255, 255, 255, 0.05);
+    --white10:  rgba(255, 255, 255, 0.1);
+    --white25:  rgba(255, 255, 255, 0.25);
+    --white50:  rgba(255, 255, 255, 0.5);
+    --white75:  rgba(255, 255, 255, 0.75);
+    --white: rgba(255, 255, 255, 1);
+    /* darkcolor */
+    --dark5:   rgba(0, 0, 0, 0.05);
+    --dark10:  rgba(0, 0, 0, 0.1);
+    --dark25:  rgba(0, 0, 0, 0.25);
+    --dark50:  rgba(0, 0, 0, 0.5);
+    --dark75:  rgba(0, 0, 0, 0.75);
+    --dark: rgba(0, 0, 0, 1);
+    /* stroke */
+    --stroke: rgba(227, 227, 227, 1);
+    /*Font*/
+    --font-roboto: "Roboto", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+}
+p {
+    display: inline-block;
+}
+.left {
+    width: 100px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 14px;
+}
+.right {
+    margin-left: 20px;
+}
+.typography {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .Subtitle, .Subtitle2, .body, .body2, .button, .button-larg, .span, .button-small, .span2, .span3, .a, .a-2, .input, .overline {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.h1 .H1 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 67px;
+}
+.h2 .H2 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 50px;
+}
+.h3 .H3 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 37px;
+}
+.h4 .H4 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 28px;
+}
+.h5 .H5 {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 21px;
+}
+.h6 .H6 {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 16px;
+}
+.Subtitle .Subtitle1 {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 16px;
+}
+.Subtitle2 .Subtitle2-medium {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 14px;
+}
+.body .Body1 {
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    font-size: 74px;
+}
+.body2 .BODY2 {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 34px;
+}
+.button .BUTTON {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 18px;
+}
+.button-larg .button-larg1 {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 29px;
+}
+.button-small .Button-small1 {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 16px;
+}
+.span .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 16px;
+}
+.span2 .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 14px;
+}
+.span3 .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+.a .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+.a-2 .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 14px;
+}
+.input .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 16px;
+}
+.overline .Caption {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 16px;
+}
+.paragraph-larg {
+    margin-top: 20px;
+}
+.paragraph-larg p {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+}
+.paragraph {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.paragraph p {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+}
