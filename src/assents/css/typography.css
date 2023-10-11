@@ -38,133 +38,150 @@
     --font-roboto: "Roboto", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
 }
-p {
-    display: inline-block;
-}
-.left {
-    width: 100px;
-    font-family: var(--font-roboto);
-    font-weight: 400;
-    font-size: 14px;
-}
-.right {
-    margin-left: 20px;
-}
+
 .typography {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 20px;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, .Subtitle, .Subtitle2, .body, .body2, .button, .button-larg, .span, .button-small, .span2, .span3, .a, .a-2, .input, .overline {
+.left {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 40px;
+    width: 100px;
+    display: flex;
+}
+.right {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-bottom: 50px;
 }
-.h1 .H1 {
+
+h1 .h1-roboto-medium-67px {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 67px;
 }
-.h2 .H2 {
+h2 .h2-roboto-medium-50px {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 50px;
 }
-.h3 .H3 {
+h3 .h3-roboto-medium-37px {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 37px;
 }
-.h4 .H4 {
+h4 .h4-roboto-medium-28px {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 28px;
 }
-.h5 .H5 {
+h5 .h5-open-sans-semi-bold-21px {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 21px;
 }
-.h6 .H6 {
+h6 .h6-open-sans-semi-bold-16px {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
 }
-.Subtitle .Subtitle1 {
+.subtitle1-roboto-regular-16px {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 16px;
 }
-.Subtitle2 .Subtitle2-medium {
+.subtitle2-medium-roboto-medium-14px {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 14px;
 }
-.body .Body1 {
+.body1-roboto-light-74px {
     font-family: var(--font-roboto);
     font-weight: 300;
     font-size: 74px;
 }
-.body2 .BODY2 {
+.body2-roboto-regular-34px {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 34px;
 }
-.button .BUTTON {
+button.button {
+    border: none;
+    background: white;
+    display: flex;
+}
+
+.button-roboto-regular-18px {
     font-family: var(--font-roboto);
-    font-weight: 400;
     font-size: 18px;
-}
-.button-larg .button-larg1 {
-    font-family: var(--font-roboto);
     font-weight: 400;
+}
+button.button-large {
+    border: none;
+    background: white;
+    display: flex;
+}
+.button-large1-roboto-regular-29px {
+    font-family: var(--font-roboto);
     font-size: 29px;
-}
-.button-small .Button-small1 {
-    font-family: var(--font-roboto);
     font-weight: 400;
-    font-size: 16px;
 }
-.span .Caption {
+button.button-small {
+    border: none;
+    background: white;
+    display: flex;
+}
+.button-small1-open-sans-regular-16px {
+    font-family: var(--font-open-sans);
+    font-size: 16px;
+    font-weight: 400;
+}
+.span .caption-open-sans-semi-bold-16px {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
 }
-.span2 .Caption {
+.span2 .caption-open-sans-semi-bold-14px {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 14px;
 }
-.span3 .Caption {
+.span3 .caption-open-sans-regular-16px {
     font-family: var(--font-open-sans);
     font-weight: 400;
     font-size: 16px;
 }
-.a .Caption {
+.a .caption-open-sans-regular-16px {
     font-family: var(--font-open-sans);
     font-weight: 400;
     font-size: 16px;
 }
-.a-2 .Caption {
+.a2 .caption-open-sans-regular-14px {
     font-family: var(--font-open-sans);
     font-weight: 400;
     font-size: 14px;
 }
-.input .Caption {
+
+.caption-open-sans-semi-bold-16px {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
 }
-.overline .Caption {
+.caption-open-sans-semi-bold-12px {
     font-family: var(--font-open-sans);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
-.paragraph-larg {
+.paragraph-large {
     margin-top: 20px;
 }
-.paragraph-larg p {
+p.paragraph-large {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 30px;
@@ -174,7 +191,7 @@ p {
     margin-top: 60px;
     margin-bottom: 40px;
 }
-.paragraph p {
+p.paragraph {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 26px;
