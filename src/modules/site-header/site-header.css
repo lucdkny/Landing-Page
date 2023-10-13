@@ -37,6 +37,8 @@
     /*Font*/
     --font-roboto: "Roboto", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
+    /*Header*/
+    --black-header: rgb(232, 233, 234);
 }
 header {
 	max-width: 100%;
@@ -57,16 +59,12 @@ header {
 .header__search {
 	margin-bottom: 10px;
     width: 17%;
-    
-}	
+}
 .header__search-icon {
 	max-width: 100%;
 }
 .header__logo {
 	margin: 0 auto;
-}
-.header__logo-img {
-
 }
 .header__account {
 	display: flex;
@@ -80,7 +78,7 @@ header {
     align-items: center;
     gap: 8px;
     border: none;
-	background: #E8E9EA;
+	background: var(--black-header);
 }
 .button__account-text {
 	font-size: 18px;
@@ -95,7 +93,7 @@ header {
     align-items: center;
     gap: 8px;
     border: none;
-	background: #E8E9EA;
+	background: var(--black-header);
 }
 
 .button__shopping-text {
@@ -124,7 +122,7 @@ header {
 }
 .menu ul li {
 	display: inline-block;
-	
+
 }
 .menu ul li a {
 	text-decoration: none;

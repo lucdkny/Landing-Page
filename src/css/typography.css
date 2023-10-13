@@ -52,14 +52,12 @@
     font-size: 14px;
     margin-right: 40px;
     width: 100px;
-    display: flex;
 }
 .right {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
-
 h1 .h1-roboto-medium-67px {
     font-family: var(--font-roboto);
     font-weight: 500;
@@ -110,16 +108,17 @@ h6 .h6-open-sans-semi-bold-16px {
     font-weight: 400;
     font-size: 34px;
 }
+
 button.button {
     border: none;
     background: white;
     display: flex;
 }
-
 .button-roboto-regular-18px {
     font-family: var(--font-roboto);
     font-size: 18px;
     font-weight: 400;
+    font-size: 29px;
 }
 button.button-large {
     border: none;
@@ -166,7 +165,6 @@ button.button-small {
     font-weight: 400;
     font-size: 14px;
 }
-
 .caption-open-sans-semi-bold-16px {
     font-family: var(--font-open-sans);
     font-weight: 600;
@@ -175,6 +173,7 @@ button.button-small {
 .caption-open-sans-semi-bold-12px {
     font-family: var(--font-open-sans);
     font-weight: 600;
+    font-size: 16px;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -191,9 +190,9 @@ p.paragraph-large {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
 p.paragraph {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 26px;
-    line-height: 40px;
 }
