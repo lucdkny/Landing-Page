@@ -66,11 +66,11 @@ header {
 .header__logo {
 	margin: 0 auto;
 }
+/*Acount*/
 .header__account {
 	display: flex;
     align-items: baseline;
     gap: 22px;
-	font-family: var(--font-roboto);
 	margin-bottom: 10px;
 }
 .button__account {
@@ -80,14 +80,13 @@ header {
     border: none;
 	background: var(--black-header);
 }
-.button__account-text {
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	text-transform: capitalize;
-	color: var(--black);
+.account-text {
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--black);
 }
+/*Shopping*/
 .button__shopping {
 	display: flex;
     align-items: center;
@@ -95,14 +94,11 @@ header {
     border: none;
 	background: var(--black-header);
 }
-
-.button__shopping-text {
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	text-transform: capitalize;
-	color: var(--black);
+.shopping-text {
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--black);
 }
 
 .line {
@@ -110,10 +106,8 @@ header {
 	border: 1px solid white;
 	margin-bottom: 20px;
 }
+/*Menu*/
 
-.menu {
-	font-family: var(--font-open-sans);
-}
 .menu ul {
 	display: flex;
     justify-content: space-between;
@@ -125,11 +119,9 @@ header {
 
 }
 .menu ul li a {
-	text-decoration: none;
+  text-decoration: none;
 	color: var(--dark);
-	font-size: 16px;
 	font-style: normal;
-	font-weight: 400;
 	line-height: 24px;
 	text-transform: capitalize;
 }
