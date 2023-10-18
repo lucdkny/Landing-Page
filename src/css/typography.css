@@ -52,71 +52,69 @@
     font-size: 14px;
     margin-right: 40px;
     width: 100px;
-    display: flex;
 }
 .right {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
-
-h1 .h1-roboto-medium-67px {
+h1 .h1 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 67px;
 }
-h2 .h2-roboto-medium-50px {
+h2 .h2 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 50px;
 }
-h3 .h3-roboto-medium-37px {
+h3 .h3 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 37px;
 }
-h4 .h4-roboto-medium-28px {
+h4 .h4 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 28px;
 }
-h5 .h5-open-sans-semi-bold-21px {
+h5 .h5 {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 21px;
 }
-h6 .h6-open-sans-semi-bold-16px {
+h6 .h6 {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
 }
-.subtitle1-roboto-regular-16px {
+.subtitle1 {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 16px;
 }
-.subtitle2-medium-roboto-medium-14px {
+.subtitle2 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 14px;
 }
-.body1-roboto-light-74px {
+.body1 {
     font-family: var(--font-roboto);
     font-weight: 300;
     font-size: 74px;
 }
-.body2-roboto-regular-34px {
+.body2 {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 34px;
 }
-button.button {
+
+button.button-one {
     border: none;
     background: white;
     display: flex;
 }
-
-.button-roboto-regular-18px {
+.button {
     font-family: var(--font-roboto);
     font-size: 18px;
     font-weight: 400;
@@ -126,7 +124,7 @@ button.button-large {
     background: white;
     display: flex;
 }
-.button-large1-roboto-regular-29px {
+.button-large1 {
     font-family: var(--font-roboto);
     font-size: 29px;
     font-weight: 400;
@@ -136,45 +134,45 @@ button.button-small {
     background: white;
     display: flex;
 }
-.button-small1-open-sans-regular-16px {
+.button-small1 {
     font-family: var(--font-open-sans);
     font-size: 16px;
     font-weight: 400;
 }
-.span .caption-open-sans-semi-bold-16px {
+.span  {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
 }
-.span2 .caption-open-sans-semi-bold-14px {
+.span2  {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 14px;
 }
-.span3 .caption-open-sans-regular-16px {
+.span3  {
     font-family: var(--font-open-sans);
     font-weight: 400;
     font-size: 16px;
 }
-.a .caption-open-sans-regular-16px {
+.a  {
     font-family: var(--font-open-sans);
     font-weight: 400;
     font-size: 16px;
 }
-.a2 .caption-open-sans-regular-14px {
+.a2  {
     font-family: var(--font-open-sans);
     font-weight: 400;
     font-size: 14px;
 }
-
-.caption-open-sans-semi-bold-16px {
+.input {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
 }
-.caption-open-sans-semi-bold-12px {
+.overline {
     font-family: var(--font-open-sans);
     font-weight: 600;
+    font-size: 16px;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -191,9 +189,9 @@ p.paragraph-large {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
 p.paragraph {
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 26px;
-    line-height: 40px;
 }
