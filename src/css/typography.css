@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 :root {
     /* primary */
@@ -58,32 +59,32 @@
     align-items: center;
     margin-bottom: 50px;
 }
-h1 .h1 {
+.h1 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 67px;
 }
-h2 .h2 {
+.h2 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 50px;
 }
-h3 .h3 {
+.h3 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 37px;
 }
-h4 .h4 {
+.h4 {
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 28px;
 }
-h5 .h5 {
+.h5 {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 21px;
 }
-h6 .h6 {
+.h6 {
     font-family: var(--font-open-sans);
     font-weight: 600;
     font-size: 16px;
