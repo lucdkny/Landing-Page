@@ -1,0 +1,45 @@
+.banner {
+  width: 100%;
+  background: var(--black10);
+  padding: 100px 0 100px 0;
+}
+
+.banner__collection {
+  display: flex;
+  justify-content: center;
+  margin: 0 130px 0 130px;
+}
+
+.collection__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.collection__text {
+  text-transform: capitalize;
+  margin: 50px 0 60px 0;
+}
+
+.btn-collection-shop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: none;
+  background: var(--black);
+  color: var(--white);
+}
+
+.collection__image {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.collection__image img {
+  max-width: 80%;
+  border-radius: 160px 0px;
+}

@@ -3,9 +3,9 @@ class SiteFooter extends HTMLElement {
     super();
 
     this.button = this.querySelector('.js-toggle-button');
-    console.log(this.button)
+    console.log(this.button);
   }
 }
 
-customElements.define('site-footer', SiteFooter);
+customElements.define('site-footer',SiteFooter);
 

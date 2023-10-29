@@ -1,6 +1,7 @@
 @import "src/css/typography.css";
 @import "src/modules/site-header/site-header.css";
 @import "src/modules/site-footer/site-footer.css";
+@import "src/modules/site-hero/site-hero.css";
 
 section {
   width: 100%;
