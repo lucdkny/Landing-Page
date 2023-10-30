@@ -1,13 +1,30 @@
 .banner {
   width: 100%;
   background: var(--black10);
-  padding: 100px 0 100px 0;
+  padding: 120px 0 150px 0;
+}
+
+.banner__flower {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.flower-right {
+  max-width: 15%;
+}
+
+.flower-right img {
+  max-width: 100%;
 }
 
 .banner__collection {
   display: flex;
   justify-content: center;
   margin: 0 130px 0 130px;
+  position: absolute;
+  transform: translateY(-80%);
 }
 
 .collection__content {
@@ -33,13 +50,21 @@
   color: var(--white);
 }
 
+.btn-collection-shop:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
 .collection__image {
   display: flex;
   justify-content: flex-end;
-  overflow: hidden;
+  max-width: 35%;
+  border: 2px solid var(--dark25);
+  border-radius: 160px 0px;
 }
 
 .collection__image img {
-  max-width: 80%;
+  max-width: 100%;
   border-radius: 160px 0px;
+  transform: translate(-2%, -3%);
 }
