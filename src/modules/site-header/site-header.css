@@ -1,130 +1,99 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-:root {
-    /* primary */
-    --primary5:   rgba(255, 111, 97, 0.05);
-    --primary10:  rgba(255, 111, 97, 0.1);
-    --primary25:  rgba(255, 111, 97, 0.25);
-    --primary50:  rgba(255, 111, 97, 0.5);
-    --primary75:  rgba(255, 111, 97, 0.75);
-    --primary: rgba(255, 111, 97, 1);
-    /* blackcolor */
-    --black5:   rgba(30, 40, 50, 0.05);
-    --black10:  rgba(30, 40, 50, 0.1);
-    --black25:  rgba(30, 40, 50, 0.25);
-    --black50:  rgba(30, 40, 50, 0.5);
-    --black75:  rgba(30, 40, 50, 0.75);
-    --black: rgba(30, 40, 50, 1);
-    /* whitecolor */
-    --white5:   rgba(255, 255, 255, 0.05);
-    --white10:  rgba(255, 255, 255, 0.1);
-    --white25:  rgba(255, 255, 255, 0.25);
-    --white50:  rgba(255, 255, 255, 0.5);
-    --white75:  rgba(255, 255, 255, 0.75);
-    --white: rgba(255, 255, 255, 1);
-    /* darkcolor */
-    --dark5:   rgba(0, 0, 0, 0.05);
-    --dark10:  rgba(0, 0, 0, 0.1);
-    --dark25:  rgba(0, 0, 0, 0.25);
-    --dark50:  rgba(0, 0, 0, 0.5);
-    --dark75:  rgba(0, 0, 0, 0.75);
-    --dark: rgba(0, 0, 0, 1);
-    /* stroke */
-    --stroke: rgba(227, 227, 227, 1);
-    /*Font*/
-    --font-roboto: "Roboto", sans-serif;
-    --font-open-sans: "Open Sans", sans-serif;
-    /*Header*/
-    --black-header: rgb(232, 233, 234);
-}
 header {
 	max-width: 100%;
 	background: var(--black10);
 }
+
 .header {
-	max-width: 100%;
 	display: flex;
 	flex-direction: column;
+	max-width: 100%;
 	padding: 20px;
 }
+
 .top-header {
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 	min-height: 70%;
 }
+
 .header__search {
-	margin-bottom: 10px;
-    width: 17%;
+  width: 14%;
+  text-align: left;
 }
+
 .header__search-icon {
 	max-width: 100%;
 }
+
 .header__logo {
-	margin: 0 auto;
+  text-align: center;
 }
-/*Acount*/
+
+/*
+  * Acount
+*/
 .header__account {
 	display: flex;
-    align-items: baseline;
-    gap: 22px;
-	margin-bottom: 10px;
+  align-items: baseline;
+  gap: 22px;
 }
+
 .button__account {
 	display: flex;
-    align-items: center;
-    gap: 8px;
-    border: none;
+  align-items: center;
+  gap: 8px;
+  border: none;
 	background: var(--black-header);
 }
+
 .account-text {
-  font-style: normal;
-  line-height: normal;
   text-transform: capitalize;
   color: var(--black);
 }
-/*Shopping*/
+
+/*
+  * Shopping
+*/
 .button__shopping {
 	display: flex;
-    align-items: center;
-    gap: 8px;
-    border: none;
+  align-items: center;
+  gap: 8px;
+  border: none;
 	background: var(--black-header);
 }
+
 .shopping-text {
-  font-style: normal;
-  line-height: normal;
   text-transform: capitalize;
   color: var(--black);
 }
 
 .line {
+  border: 1px solid white;
 	margin-top: 20px;
-	border: 1px solid white;
 	margin-bottom: 20px;
 }
-/*Menu*/
 
+/*
+ * Menu
+*/
 .menu ul {
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 	list-style: none;
 }
+
 .menu ul li {
 	display: inline-block;
-
 }
+
 .menu ul li a {
   text-decoration: none;
 	color: var(--dark);
-	font-style: normal;
 	line-height: 24px;
-	text-transform: capitalize;
 }
+
 .menu ul li:hover {
 	text-decoration: underline;
 }
