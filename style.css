@@ -2,6 +2,7 @@
 @import "src/modules/site-header/site-header.css";
 @import "src/modules/site-footer/site-footer.css";
 @import "src/modules/site-hero/site-hero.css";
+@import "src/modules/site-logo/site-logo.css";
 
 section {
   width: 100%;
