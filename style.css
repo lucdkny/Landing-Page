@@ -2,13 +2,3 @@
 @import "src/modules/site-header/site-header.css";
 @import "src/modules/site-footer/site-footer.css";
 
-section {
-  width: 100%;
-  height: 100vh;
-  background-color:  #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 100px;
-}
