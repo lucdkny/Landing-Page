@@ -1,0 +1,27 @@
+.site-instagram__inner {
+  width: 100%;
+  padding: 80px 60px 0px;
+  background-color: var(--black5);
+}
+
+.instagram__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.instagram__section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+  grid-gap: 20px;
+  grid-template-areas:
+  "h1 h2 h3 h4 h5 h6";
+  padding: 60px 0px;
+}
+
+.instagram__card img {
+  width: 100%;
+  object-fit: cover;
+}
