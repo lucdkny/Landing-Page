@@ -2,14 +2,10 @@
 @import "src/modules/site-header/site-header.css";
 @import "src/modules/site-footer/site-footer.css";
 @import "src/modules/site-hero/site-hero.css";
-
-section {
-  width: 100%;
-  height: 100vh;
-  background-color:  #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 100px;
-}
+@import "src/modules/site-logo/site-logo.css";
+@import "src/modules/site-category/site-category.css";
+@import "src/modules/site-products/site-products.css";
+@import "src/modules/site-banner/site-banner.css";
+@import "src/modules/site-product/site-product.css";
+@import "src/modules/site-instagram/site-instagram.css";
+@import "src/modules/site-newsletter/site-newsletter.css";

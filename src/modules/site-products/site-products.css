@@ -1,0 +1,159 @@
+.site__products {
+  width: 100%;
+}
+
+.products__title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*
+* Menu product
+*/
+
+.products__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 60px 0px;
+}
+
+.products__category ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.products__category ul li a {
+  text-decoration: none;
+  color: var(--dark-50);
+}
+
+.product__filter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  border: none;
+  background: var(--black);
+  color: var(--white);
+}
+
+/*
+* Product
+*/
+
+.products__section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "h1 h2 h3 h4"
+  "h5 h6 h7 h8"
+  ;
+  padding: 35px 60px;
+}
+
+.product__card:first-child {
+  grid-area: h1;
+}
+.product__card:nth-child(2) {
+  grid-area: h2;
+}
+.product__card:nth-child(3) {
+  grid-area: h3;
+}
+.product__card:nth-child(4) {
+  grid-area: h4;
+}
+.product__card:nth-child(5) {
+  grid-area: h5;
+}
+.product__card:nth-child(6) {
+  grid-area: h6;
+}
+.product__card:nth-child(7) {
+  grid-area: h7;
+}
+.product__card:nth-child(8) {
+  grid-area: h8;
+}
+
+.products__card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.products__card-top {
+  position: relative;
+}
+
+.products__card-sale {
+  position: absolute;
+  top: 22px;
+  padding: 4px 12px;
+  background: var(--black);
+  color: var(--white);
+}
+
+.products__card-hot {
+  position: absolute;
+  top: 22px;
+  padding: 4px 12px;
+  background: var(--primary);
+  color: var(--white);
+}
+
+.product__card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products__card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 10px;
+}
+
+.products__text {
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
+.products__desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products__name {
+  text-transform: capitalize;
+  color: var(--dark-50);
+}
+
+.products__price-number {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.products__price {
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
+.products__price-dash {
+  text-transform: capitalize;
+  text-decoration-line: line-through;
+  color: var(--dark);
+}
+
+.products__price-sale {
+  text-transform: capitalize;
+  color: var(--primary);
+}

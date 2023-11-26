@@ -1,0 +1,35 @@
+.site-newsletter__inner {
+  width: 100%;
+  padding: 20px 0px 80px;
+  background-color: var(--black5);
+}
+
+.newsletter__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+.newsletter__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.newsletter__form-email {
+  width: 50%;
+  padding: 9px 15px;
+  border: none;
+  border-bottom: 2px solid var(--dark);
+  background-color: var(--black5);
+}
+
+.newsletter__form-button {
+  padding: 5px 15px;
+  border: none;
+  border-bottom: 2px solid var(--dark);
+  text-transform: uppercase;
+}
